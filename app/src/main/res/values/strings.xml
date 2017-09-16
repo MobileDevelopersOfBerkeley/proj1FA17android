@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">matchTheMembers</string>
+    <string name="startButtonText">Start</string>
+    <string name="scoreText">Score: %d</string>
+    <string name="secondsLeftText">Seconds remaining: %d</string>
+    <string name="endGameTitle">End Game?</string>
+    <string name="endGameMessage">Are you sure you want to end the game?</string>
+    <string name="endGameConfirm">End Game</string>
+    <string name="endGameCancel">Cancel</string>
+    <string name="timerDoneText">You ran out of time!</string>
+    <string name="toastText">" That was "</string>
+    <string name="incorrectText">Incorrect!</string>
+</resources>
