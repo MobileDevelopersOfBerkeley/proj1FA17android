@@ -66,7 +66,7 @@ public class Game extends AppCompatActivity implements View.OnClickListener{
         };
         changeNames();
         changeImage((String) getRightButton().getText());
-        Toast toast= Toast.makeText(getApplicationContext(),"Practice Round! Unlimited Time for this question", Toast.LENGTH_LONG);
+        Toast toast= Toast.makeText(getApplicationContext(),"Practice! From the next pic on, you only have 5 seconds to select. Good luck!", Toast.LENGTH_LONG);
         toast.show();
     }
     protected void onStart() {
