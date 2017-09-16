@@ -245,6 +245,7 @@ public class MainActivity extends AppCompatActivity {
                 alertDialogBuilder.setPositiveButton("yes", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         //if clicked, go back to main activity (welcome screen)
+                        mCountDown.cancel();
                         Intent myIntent = new Intent(MainActivity.this, WelcomeScreen.class);
                         startActivity(myIntent);
 
