@@ -110,7 +110,7 @@ public class GameScreen extends AppCompatActivity {
 
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.dismiss();
-                        finish();
+
                     }
 
                 });
